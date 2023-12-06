@@ -1,0 +1,34 @@
+<html>
+    <head> 
+        <style>
+           .magic {
+               color: white;
+               text-align: center;
+               padding: 150px;
+               width:30px; 
+                height:10px; 
+                margin:10px; 
+                float:left;
+                animation-name: colors;
+                animation-duration: 2s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                }
+
+
+            @keyframes colors{
+                0% { background-color: red; }
+                20% { background-color: orange; }
+                40% { background-color: yellow; }
+                60% { background-color: green; }
+                80% { background-color: blue; }
+                100% { background-color: purple; }
+            }
+
+        </style> 
+    </head>
+    <body>
+        <div class="magic">Magic</div>
+    </body>
+</html>

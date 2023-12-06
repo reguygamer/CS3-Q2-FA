@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="HTML, CSS, JAVASCRIPT">
+		
+		<title> Run Animation </title>
+	
+			<style>
+				.sprite {
+					background: url('Run.png') no-repeat 0 0;
+					width:200px;
+					height:134px;
+					animation: varName 4s steps(4) infinite;
+				}
+				
+				@keyframes varName{
+					from{background-position-x:0px;}
+					to{background-position-x:-300px}
+				}
+			</style>
+	</head>
+	
+	<body>
+		<div class="sprite"> </div>
+	</body>
+</html>

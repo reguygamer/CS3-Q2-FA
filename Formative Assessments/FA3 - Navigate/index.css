@@ -1,0 +1,12 @@
+.sprite {
+  background: url("icon.png") no-repeat -412px -17px;
+  width: 32px;
+  height: 31px;
+
+
+}
+.sprite:hover {
+	background: url('imgs/icon.png') no-repeat -412px -91px;
+	width: 32px;
+	height: 33px;
+}

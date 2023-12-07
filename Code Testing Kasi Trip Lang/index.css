@@ -1,0 +1,10 @@
+.link1 {
+  background-color: lightblue;
+}
+.link1:active {
+  background-color: darkblue;
+  color: white;
+}
+a.link1:active div:target{
+    color: white;
+}

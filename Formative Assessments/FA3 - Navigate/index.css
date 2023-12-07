@@ -2,7 +2,6 @@
 	background: url('icon.png') no-repeat -412px -91px;
 	width: 32px;
 	height: 33px;
-    transition: background;
 }
 .sprite:hover{
     background: url('icon.png') no-repeat -412px -17px;

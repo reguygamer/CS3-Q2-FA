@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+    <head>
+        <title> Caranguian, Elmar Therence M.</title>
+         <meta charset="UTF=8">
+         <meta name="author" content="Elmar Therence M. Caranguian">
+         <meta name="keywords" content="HTML, CSS, JavaScript">
+         <meta name="revised" content="10-12-2023">
+        <style>
+            a {
+                color: black;
+                background-color: white;
+                text-decoration: none;
+            }
+            a:hover {
+                color: white;
+                background-color: black;
+            }
+            a:active {
+                color: orangered;
+                background-color: yellow;
+            }
+            a:visited {
+                color: green;
+                background-color: pink;
+            }
+            div {
+                width: 200px;
+                height: 200px;
+                border: 1px solid black;
+            }
+            #first:target {
+                background-color: navy;
+                color: white;
+            }
+            #second:target {
+                background-color: lightseagreen;
+                border: 10px dotted green;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="#first">First Link</a><br>
+        <a href="#second">Second Link</a><br>
+        <div id="first">First div</div><br>
+        <div id="second">Second div </div>
+    </body>
+</html>
